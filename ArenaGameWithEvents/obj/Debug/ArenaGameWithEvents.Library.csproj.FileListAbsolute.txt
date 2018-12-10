@@ -1,0 +1,6 @@
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents\bin\Debug\ArenaGameWithEvents.dll
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents\bin\Debug\ArenaGameWithEvents.pdb
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents\obj\Debug\ArenaGameWithEvents.Library.csprojAssemblyReference.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents\obj\Debug\ArenaGameWithEvents.Library.csproj.CoreCompileInputs.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents\obj\Debug\ArenaGameWithEvents.dll
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents\obj\Debug\ArenaGameWithEvents.pdb

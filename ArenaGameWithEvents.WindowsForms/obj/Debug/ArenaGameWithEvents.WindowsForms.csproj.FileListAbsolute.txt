@@ -1,0 +1,14 @@
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\bin\Debug\ArenaGameWithEvents.WindowsForms.exe.config
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\bin\Debug\ArenaGameWithEvents.WindowsForms.exe
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\bin\Debug\ArenaGameWithEvents.WindowsForms.pdb
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.csprojAssemblyReference.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.Properties.Resources.resources
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.csproj.GenerateResource.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.exe
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.pdb
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.Start.resources
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\bin\Debug\ArenaGameWithEvents.dll
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\bin\Debug\ArenaGameWithEvents.pdb
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.ShowGame.resources
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.WindowsForms\obj\Debug\ArenaGameWithEvents.WindowsForms.csproj.CopyComplete

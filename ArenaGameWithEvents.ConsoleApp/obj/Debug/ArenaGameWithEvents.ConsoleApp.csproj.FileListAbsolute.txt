@@ -1,0 +1,10 @@
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\obj\Debug\ArenaGameWithEvents.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\obj\Debug\ArenaGameWithEvents.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\bin\Debug\ArenaGameWithEvents.ConsoleApp.exe.config
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\bin\Debug\ArenaGameWithEvents.ConsoleApp.exe
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\bin\Debug\ArenaGameWithEvents.ConsoleApp.pdb
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\bin\Debug\ArenaGameWithEvents.dll
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\bin\Debug\ArenaGameWithEvents.pdb
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\obj\Debug\ArenaGameWithEvents.ConsoleApp.csproj.CopyComplete
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\obj\Debug\ArenaGameWithEvents.ConsoleApp.exe
+C:\Users\Madlen\source\repos\ArenaGameWithEvents\ArenaGameWithEvents.ConsoleApp\obj\Debug\ArenaGameWithEvents.ConsoleApp.pdb
