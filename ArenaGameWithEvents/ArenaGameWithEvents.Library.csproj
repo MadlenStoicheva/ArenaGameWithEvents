@@ -40,10 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="EventsArgs\AttackAbsorbedEventArgs.cs" />
+    <Compile Include="InformationEnums.cs" />
     <Compile Include="EventsArgs\DeadHeroEventArgs.cs" />
-    <Compile Include="Engine\GameEngineEncode.cs" />
-    <Compile Include="EventsArgs\ReturnDeffendingArgs.cs" />
+    <Compile Include="Engine\GameEngine.cs" />
+    <Compile Include="EventsArgs\AttackAvoidedEventArgs.cs" />
+    <Compile Include="EventsArgs\GameEndEventArgs.cs" />
     <Compile Include="EventsArgs\RoundResultEventArgs.cs" />
+    <Compile Include="EventsArgs\GameStartEventArgs.cs" />
     <Compile Include="Models\Assassian.cs" />
     <Compile Include="Models\Dwarf.cs" />
     <Compile Include="Models\Helpers\IHero.cs" />

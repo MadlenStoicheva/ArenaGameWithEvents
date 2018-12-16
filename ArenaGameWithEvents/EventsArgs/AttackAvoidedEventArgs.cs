@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace ArenaGameWithEvents.EventsArgs
 {
-    public class RoundResultEventArgs :EventArgs
+    public class AttackAvoidedEventArgs : EventArgs
     {
-        public Hero HeroOne { get; set; }
+        public Hero Hero { get; set; }
         public InformationEnums Information { get; set; }
-        public Hero HeroTwo { get; set; }
-        public int HealthPoints { get; set; }
+
     }
 }

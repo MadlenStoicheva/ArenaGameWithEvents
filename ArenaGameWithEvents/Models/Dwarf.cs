@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArenaGameWithEvents;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,7 @@ namespace ArenaGame
         {
             if (GetRandomPercentChance() <= ChanceToBlockTheAttack)
             {
-                return -1;
+                return Constants.AttackAvoided;
             }
             else
             {

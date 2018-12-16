@@ -14,7 +14,7 @@ namespace ArenaGame
         public int HealthPoints { get; set; }
         protected int AttackPoints { get; set; }
         protected int ArmorPoints { get; set; }
-        public bool IsHeroDead
+        public bool IsDead
         {
             get
             {

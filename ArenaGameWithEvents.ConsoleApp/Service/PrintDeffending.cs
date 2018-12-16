@@ -9,7 +9,12 @@ namespace ArenaGameWithEvents.ConsoleApp.Service
 {
     public class PrintDeffending
     {
-        public void DeffendingResult(object source , ReturnDeffendingArgs arg)
+        public void AttackAvoided(object source , AttackAvoidedEventArgs arg)
+        {
+            Console.WriteLine(arg.Hero.GetType().Name + " " + arg.Information);
+        }
+
+        public void AttackAbsorbed(object source, AttackAbsorbedEventArgs arg)
         {
             Console.WriteLine(arg.Hero.GetType().Name + " " + arg.Information);
         }

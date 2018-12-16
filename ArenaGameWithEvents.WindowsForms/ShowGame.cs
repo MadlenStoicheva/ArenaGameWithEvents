@@ -24,11 +24,14 @@ namespace ArenaGameWithEvents.WindowsForms
 
             FirstHero = heroOne;
             SecondHero = secondHero;
-            GameEngineEncode game = new GameEngineEncode();
+            GameEngine game = new GameEngine();
 
+            game.GameStart += PrintStart;
             game.RoundResult += RoundResult;
-            game.ReturnDeffending += DeffendingResult;
-            game.DeadHeroEncoded += DeadResult;
+            game.AttackAvoided += AttackAvoided;
+            game.AttackAbsorbed += AttackAbsorbed;
+            game.DeadHero += DeadResult;
+            game.GameEnd += PrintEnd;
 
             game.PlayArena(FirstHero, SecondHero);
         }
@@ -38,12 +41,22 @@ namespace ArenaGameWithEvents.WindowsForms
             this.Close();
         }
 
+        public void PrintStart(object source, GameStartEventArgs arg)
+        {
+            this.listBox_HeroesFight.Items.Add(arg.Information);
+        }
+
         public void RoundResult(object source, RoundResultEventArgs arg)
         {
             this.listBox_HeroesFight.Items.Add(arg.HeroOne.GetType().Name + " " + arg.Information + " " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
         }
 
-        public void DeffendingResult(object source, ReturnDeffendingArgs arg)
+        public void AttackAvoided(object source, AttackAvoidedEventArgs arg)
+        {
+            this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " " + arg.Information);
+        }
+
+        public void AttackAbsorbed(object source, AttackAbsorbedEventArgs arg)
         {
             this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " " + arg.Information);
         }
@@ -51,6 +64,11 @@ namespace ArenaGameWithEvents.WindowsForms
         public void DeadResult(object source, DeadHeroEventArgs arg)
         {
             this.listBox_HeroesFight.Items.Add(arg.DeadHero.GetType().Name + " is dead!");
+        }
+
+        public void PrintEnd(object source, GameEndEventArgs arg)
+        {
+            this.listBox_HeroesFight.Items.Add(arg.Information);
         }
     }
 }
