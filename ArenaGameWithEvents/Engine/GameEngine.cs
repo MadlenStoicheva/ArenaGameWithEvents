@@ -51,7 +51,7 @@ namespace ArenaGameWithEvents.Engine
 
         protected virtual void OnGameStart()
         {
-            GameStart?.Invoke(this, new GameStartEventArgs() { Information = InformationEnums.GameStart });
+            GameStart?.Invoke(this, new GameStartEventArgs());
         }
 
 
@@ -62,16 +62,16 @@ namespace ArenaGameWithEvents.Engine
 
             if (heroTwoDefending == Constants.AttackAvoided)
             {
-                AttackAvoided?.Invoke(this, new AttackAvoidedEventArgs() { Hero = heroTwo, Information = InformationEnums.AvoidedTheAttack });
+                AttackAvoided?.Invoke(this, new AttackAvoidedEventArgs() { Hero = heroTwo });
             }
             else if (heroTwoDefending <= heroOneAttack)
             {
                 heroTwo.HealthPoints -= heroOneAttack - heroTwoDefending;
-                RoundResult?.Invoke(this, new RoundResultEventArgs() { HeroOne = heroTwo, Information = InformationEnums.AfterAttackFrom, HeroTwo = heroOne, HealthPoints = heroTwo.HealthPoints });
+                RoundResult?.Invoke(this, new RoundResultEventArgs() { HeroOne = heroTwo, HeroTwo = heroOne, HealthPoints = heroTwo.HealthPoints });
             }
             else
             {
-                AttackAbsorbed?.Invoke(this, new AttackAbsorbedEventArgs() { Hero = heroTwo, Information = InformationEnums.AbsorbedTheAttack });
+                AttackAbsorbed?.Invoke(this, new AttackAbsorbedEventArgs() { Hero = heroTwo });
             }
         }
 
@@ -83,7 +83,7 @@ namespace ArenaGameWithEvents.Engine
 
         protected virtual void OnGameEnd()
         {
-            GameEnd?.Invoke(this, new GameEndEventArgs() { Information = InformationEnums.GameEnd });
+            GameEnd?.Invoke(this, new GameEndEventArgs());
         }
     }
 }
