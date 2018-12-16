@@ -1,2 +1,0 @@
-C:\Users\Madlen\source\repos\ArenaGameWithEvents\GameEngineUsingEvents.Console\obj\Debug\GameEngineUsingEvents.Console.csprojAssemblyReference.cache
-C:\Users\Madlen\source\repos\ArenaGameWithEvents\GameEngineUsingEvents.Console\obj\Debug\GameEngineUsingEvents.Console.csproj.CoreCompileInputs.cache
