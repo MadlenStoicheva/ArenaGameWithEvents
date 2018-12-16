@@ -11,7 +11,8 @@ namespace ArenaGameWithEvents.ConsoleApp.Service
     {
         public void RoundResult (object source, RoundResultEventArgs arg)
         {
-            Console.WriteLine(arg.HeroOne.GetType().Name +" " + arg.Information + " " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
+          //  Console.WriteLine(arg.HeroOne.GetType().Name +" " + arg.Information + " " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
+            Console.WriteLine(arg.HeroOne.GetType().Name + " after attack from " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
         }
     }
 }

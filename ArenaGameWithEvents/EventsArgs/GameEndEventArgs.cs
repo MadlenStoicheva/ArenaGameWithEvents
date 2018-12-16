@@ -8,6 +8,6 @@ namespace ArenaGameWithEvents.EventsArgs
 {
     public class GameEndEventArgs : EventArgs
     {
-        public InformationEnums Information { get; set; }
+      //  public InformationEnums Information { get; set; }
     }
 }

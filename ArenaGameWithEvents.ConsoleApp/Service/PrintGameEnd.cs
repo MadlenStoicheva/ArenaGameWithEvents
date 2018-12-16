@@ -12,7 +12,8 @@ namespace ArenaGameWithEvents.ConsoleApp.Service
         public void PrintEnd(object source, GameEndEventArgs arg)
         {
             Console.WriteLine();
-            Console.WriteLine(arg.Information);
+            Console.WriteLine("Game End:");
+           // Console.WriteLine(arg.Information);
         }
     }
 }

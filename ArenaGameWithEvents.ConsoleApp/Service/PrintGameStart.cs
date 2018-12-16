@@ -11,7 +11,8 @@ namespace ArenaGameWithEvents.ConsoleApp.Service
     {
         public void PrintStart(object source, GameStartEventArgs arg)
         {
-            Console.WriteLine(arg.Information);
+            //Console.WriteLine(arg.Information);
+            Console.WriteLine("Game Start:");
             Console.WriteLine();
         }
     }

@@ -43,22 +43,26 @@ namespace ArenaGameWithEvents.WindowsForms
 
         public void PrintStart(object source, GameStartEventArgs arg)
         {
-            this.listBox_HeroesFight.Items.Add(arg.Information);
+            //this.listBox_HeroesFight.Items.Add(arg.Information);
+            this.listBox_HeroesFight.Items.Add("Game Start");
         }
 
         public void RoundResult(object source, RoundResultEventArgs arg)
         {
-            this.listBox_HeroesFight.Items.Add(arg.HeroOne.GetType().Name + " " + arg.Information + " " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
+            //this.listBox_HeroesFight.Items.Add(arg.HeroOne.GetType().Name + " " + arg.Information + " " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
+            this.listBox_HeroesFight.Items.Add(arg.HeroOne.GetType().Name + " after attack from " + arg.HeroTwo.GetType().Name + " " + arg.HealthPoints);
         }
 
         public void AttackAvoided(object source, AttackAvoidedEventArgs arg)
         {
-            this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " " + arg.Information);
+           // this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " " + arg.Information);
+            this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " avoided the attack");
         }
 
         public void AttackAbsorbed(object source, AttackAbsorbedEventArgs arg)
         {
-            this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " " + arg.Information);
+            //this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " " + arg.Information);
+            this.listBox_HeroesFight.Items.Add(arg.Hero.GetType().Name + " absorbed the attack");
         }
 
         public void DeadResult(object source, DeadHeroEventArgs arg)
@@ -68,7 +72,8 @@ namespace ArenaGameWithEvents.WindowsForms
 
         public void PrintEnd(object source, GameEndEventArgs arg)
         {
-            this.listBox_HeroesFight.Items.Add(arg.Information);
+           // this.listBox_HeroesFight.Items.Add(arg.Information);
+            this.listBox_HeroesFight.Items.Add("Game End");
         }
     }
 }
