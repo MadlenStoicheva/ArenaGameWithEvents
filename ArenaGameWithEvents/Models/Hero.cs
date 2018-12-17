@@ -19,14 +19,9 @@ namespace ArenaGame
             get
             {
                 if (HealthPoints <= 0)
-                {
                    return true;
-                }
                 else
-                {
                     return false;
-                }
-
             }
         }
 

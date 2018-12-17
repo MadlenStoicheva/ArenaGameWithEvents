@@ -44,11 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\PrintDeadHero.cs" />
-    <Compile Include="Service\PrintDeffending.cs" />
-    <Compile Include="Service\PrintGameEnd.cs" />
-    <Compile Include="Service\PrintGameStart.cs" />
-    <Compile Include="Service\PrintRoundResutService.cs" />
+    <Compile Include="Service\PrintGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -18,30 +18,22 @@ namespace ArenaGameWithEvents.ConsoleApp
 
             var gameEngine = new GameEngine();
 
-            var gameStart = new Service.PrintGameStart();
-            var roundResult = new Service.PrintRoundResutService();
-            var printDeadHero = new Service.PrintDeadHero();
-            var printDeffending = new Service.PrintDeffending();
-            var gameEnd = new Service.PrintGameEnd();
-            
+            var printGame = new Service.PrintGame();
 
             Assassian assassian = new Assassian();
             Knight knight = new Knight();
             Dwarf dwarf = new Dwarf();
 
-            gameEngine.GameStart += gameStart.PrintStart;
-            gameEngine.AttackAvoided += printDeffending.AttackAvoided;
-            gameEngine.AttackAbsorbed += printDeffending.AttackAbsorbed;
-            gameEngine.RoundResult += roundResult.RoundResult;
-            gameEngine.DeadHero += printDeadHero.DeadResult;
-            gameEngine.GameEnd += gameEnd.PrintEnd;
+            gameEngine.GameStart += printGame.PrintStart;
+            gameEngine.AttackAvoided += printGame.AttackAvoided;
+            gameEngine.AttackAbsorbed += printGame.AttackAbsorbed;
+            gameEngine.RoundResult += printGame.RoundResult;
+            gameEngine.DeadHero += printGame.DeadResult;
+            gameEngine.GameEnd += printGame.PrintEnd;
 
             gameEngine.PlayArena(knight, dwarf);
 
-
             Console.ReadKey();
-
-
         }
     }
 }

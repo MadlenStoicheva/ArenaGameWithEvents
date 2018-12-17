@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="EventsArgs\AttackAbsorbedEventArgs.cs" />
-    <Compile Include="InformationEnums.cs" />
     <Compile Include="EventsArgs\DeadHeroEventArgs.cs" />
     <Compile Include="Engine\GameEngine.cs" />
     <Compile Include="EventsArgs\AttackAvoidedEventArgs.cs" />
