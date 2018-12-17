@@ -17,7 +17,6 @@ namespace ArenaGameWithEvents.ConsoleApp
             Console.WriteLine();
 
             var gameEngine = new GameEngine();
-
             var printGame = new Service.PrintGame();
 
             Assassian assassian = new Assassian();
